@@ -1,0 +1,30 @@
+:root {
+  --cor-fundo: #f4f2f3;
+  --corAzul-primario: #4889c1;
+  --corAzul-secundario: #80b8d9;
+  --corAzul-terciario: #92d3d9;
+  --cor-verde: #b9f3db;
+  --cor-rosa: #f2d5cf;
+  --cor-preta: #595959;
+}
+
+.img-vet {
+  display: flex;
+  margin: 0 auto;
+  width: 90%;
+}
+
+
+@media (max-width: 580px) {
+  .show-data{
+    display: flexbox;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .col-6{
+    max-width: 400px;
+    min-width: 250px;
+}
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="icon" href="../assets//LOGO.png" type="image/x-icon">
+  <title>BusquePet - Serviços</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../css/root.css">
+
+  <link rel="stylesheet" href="../css/servicos.css">
+</head>
+
+<body>
+  <header>
+    <a class="navbar-brand" href="#">
+      <img src="../assets/LOGO.png" height="100" alt="Logo do BusquePet">
+    </a>
+    <img class="navbar-mobile" src="../assets/Menu.svg" onclick="openMenu()" />
+  </header>
+  <nav class="navbar-mobile-expand">
+    <ul class="navbar-mobile-list">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./sobre.html">Sobre</a></li>
+      <li><a href="./missao.html">Missão</a></li>
+      <li><a href="./servicos.html">Serviços</a></li>
+    </ul>
+  </nav>
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./sobre.html">Sobre</a></li>
+      <li><a href="./missao.html">Missão</a></li>
+      <li><a href="./servicos.html">Serviços</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="texto-servicos">
+    <p>
+      <b>Consulta veterinária:</b> Veterinários experientes para consultas de rotina, exames de saúde, vacinações e
+      orientações gerais sobre cuidados com seu animal de estimação.<br>
+      <b>Cirurgia Veterinária:</b> Clínicas e hospitais veterinários que realizam cirurgias de rotina, castração,
+      procedimentos ortopédicos e outros tipos de cirurgias para o bem-estar do seu Pet.<br>
+      <b>Serviço de emergência:</b> Tenha acesso rápido a clínicas de emergência veterinária, disponíveis 24 horas por
+      dia, para casos urgentes que requerem de atenção e cuidado imediato.<br>
+      <b>Veterinário:</b> Especialistas em saúde bucal animal, oferecendo serviços como limpeza dentaria, extrações e
+      tratamentos de doenças periodontais.<br>
+      <b>Atendimento Especializado:</b> Veterinários especializados em áreas como dermatologia, oftalmologia, oncologia,
+      comportamento animal, fisioterapia e muito mais.
+    </p>
+  </div>
+
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <footer>
+    <div class="rodape">
+      <p><b>BusquePet</b></p>
+      <p>Contato: 99 99999-9999</p>
+      <p>Email: busquepet@pet.com</p>
+    </div>
+  </footer>
+</body>
+
+</html>

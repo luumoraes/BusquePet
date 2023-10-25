@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="../assets//LOGO.png" type="image/x-icon">
+    <title>BusquePet</title>
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="../css/bootstrap.min.css">
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="../css/root.css">
+    <link rel="stylesheet" href="../css/index.css">
+    <!-- Chevron -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css">
+
+</head>
+
+<body>
+    <header>
+        <a class="navbar-brand" href="#">
+            <img src="../assets/LOGO.png" height="100" alt="Logo do BusquePet">
+        </a>
+        <img class="navbar-mobile" src="../assets/Menu.svg" onclick="openMenu()" />
+    </header>
+    <nav class="navbar-mobile-expand">
+        <ul class="navbar-mobile-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="./pages/sobre.html">Sobre</a></li>
+            <li><a href="./pages/missao.html">Missão</a></li>
+            <li><a href="./pages/servicos.html">Serviços</a></li>
+        </ul>
+    </nav>
+    <nav class="navbar">
+        <ul class="navbar-list">
+            <li><a href="#">Inicio</a></li>
+            <li><a href="./pages/sobre.html">Sobre</a></li>
+            <li><a href="./pages/missao.html">Missão</a></li>
+            <li><a href="./pages/servicos.html">Serviços</a></li>
+        </ul>
+    </nav>
+
+
+    <div class="container">
+        <div class="row filter-search">
+            <div class="col-2" id="filter">
+                <select id="tipo" name="tipo" class="form-control">
+                    <option value="0">Filtros</option>
+                    <option value="1">Adestrador</option>
+                    <option value="2">Clínicas</option>
+                    <option value="3">Veterinário</option>
+                    <option value="4">PetShop</option>
+                </select>
+            </div>
+            <div class="col-10" id="search">
+                <input type="text" id="busca" class="form-control">
+            </div>
+        </div>
+        <br>
+        <div class="row show-data">
+        </div>
+        <img class="img-vet" id="imagem-inicial" src="../assets//imagem-vet.svg">
+
+    </div>
+    <div vw class="enabled">
+        <div vw-access-button class="active"></div>
+        <div vw-plugin-wrapper>
+            <div class="vw-plugin-top-wrapper"></div>
+        </div>
+    </div>
+    <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+    <script>
+        new window.VLibras.Widget('https://vlibras.gov.br/app');
+    </script>
+</body>
+
+<!-- jQuery -->
+ <script src="../js/jquery.js"></script>
+<!-- Bootstrap JS -->
+<script src="../js/bootstrap.min.js"></script>
+<!-- Custom JS -->
+<script src="../js/script.js"></script>
+<footer>
+    <div class="rodape">
+        <p><b>BusquePet</b></p>
+        <p>Contato: 99 99999-9999</p>
+        <p>Email: busquepet@pet.com</p>
+    </div>
+</footer>
+
+</html>

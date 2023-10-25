@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="pt_BR">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="icon" href="../assets//LOGO.png" type="image/x-icon">
+  <title>BusquePet - Missão</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="../css/bootstrap.min.css">
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="../css/root.css" />
+  <link rel="stylesheet" href="../css/missao.css" />
+</head>
+
+<body>
+  <header>
+    <a class="navbar-brand" href="#">
+      <img src="../assets/LOGO.png" height="100" alt="Logo do BusquePet">
+    </a>
+    <img class="navbar-mobile" src="../assets/Menu.svg" onclick="openMenu()" />
+  </header>
+  <nav class="navbar-mobile-expand">
+    <ul class="navbar-mobile-list">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./sobre.html">Sobre</a></li>
+      <li><a href="./missao.html">Missão</a></li>
+      <li><a href="./servicos.html">Serviços</a></li>
+    </ul>
+  </nav>
+  <nav class="navbar">
+    <ul class="navbar-list">
+      <li><a href="../index.html">Inicio</a></li>
+      <li><a href="./sobre.html">Sobre</a></li>
+      <li><a href="./missao.html">Missão</a></li>
+      <li><a href="./servicos.html">Serviços</a></li>
+    </ul>
+  </nav>
+
+
+  <div class="texto-missao">
+    <p>
+      Nossa missão é conectar você, amante de animais de estimação, aos
+      melhores lugares, profissionais que estão mais bem avaliados na sua
+      região. Nós da BusquePet acreditamos que todos os pets têm que ter
+      cuidados de saúde excepcionais, e nossa equipe está empenhada para
+      deixar cada vez mais fácil e rápido o acesso à informação sobre uma
+      clínica ou veterinário da sua localidade. Queremos que através da nossa
+      plataforma você possa buscar o profissional que mais se adapte as
+      necessidades do seu pet, e assim, possa receber toda a atenção, carinho
+      e cuidados.
+    </p>
+  </div>
+  <div vw class="enabled">
+    <div vw-access-button class="active"></div>
+    <div vw-plugin-wrapper>
+      <div class="vw-plugin-top-wrapper"></div>
+    </div>
+  </div>
+  <script src="https://vlibras.gov.br/app/vlibras-plugin.js"></script>
+  <script>
+    new window.VLibras.Widget('https://vlibras.gov.br/app');
+  </script>
+  <footer>
+    <div class="rodape">
+      <p><b>BusquePet</b></p>
+      <p>Contato: 99 99999-9999</p>
+      <p>Email: busquepet@pet.com</p>
+    </div>
+  </footer>
+
+</body>
+
+</html>

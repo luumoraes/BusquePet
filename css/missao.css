@@ -1,0 +1,36 @@
+:root {
+  --cor-fundo: #f4f2f3;
+  --corAzul-primario: #4889c1;
+  --corAzul-secundario: #80b8d9;
+  --corAzul-terciario: #92d3d9;
+  --cor-verde: #b9f3db;
+  --cor-rosa: #f2d5cf;
+  --cor-preta: #595959;
+}
+
+.texto-missao {
+  background-color: var(--corAzul-secundario);
+  text-align: justify;
+  line-height: 40px;
+  display: flex;
+  border-radius: 12px;
+  padding: 30px;
+  margin: auto;
+  max-width: 850px;
+  min-height: 450px;
+}
+
+.texto-missao p {
+  color: #595959;
+  padding: 20px 30px;
+  margin: 30px;
+  text-align: justify;
+}
+
+
+@media (max-width: 350px) {
+  .texto-missao p {
+    padding: 10px 10px;
+    margin: 10px;
+  }
+}

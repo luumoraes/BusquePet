@@ -1,0 +1,341 @@
+[
+  {
+    "tipo": 2,
+    "nome": "Pet Care Ibirapuera",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 4673-0049"
+      },
+      {
+        "tipo": 2,
+        "icone": "fa fa-phone",
+        "valor": "(11) 94242-0894"
+      }
+    ],
+    "endereco": "Av. República do Líbano",
+    "numero": "270",
+    "bairro": "Ibirapuera",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Pet Care Morumbi",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 4673-0052"
+      },
+      {
+        "tipo": 2,
+        "icone": "fa fa-phone",
+        "valor": "(11) 94242-0894"
+      }
+    ],
+    "endereco": "Av. Giovanni Gronchi",
+    "numero": "3001",
+    "bairro": "Morumbi",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Pet Care Pacaembu",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 4673-0058"
+      },
+      {
+        "tipo": 2,
+        "icone": "fa fa-phone",
+        "valor": "(11) 94242-0894"
+      }
+    ],
+    "endereco": "Av. Pacaembu",
+    "numero": "1839",
+    "bairro": "Pacaembu",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Pet Care Tatuapé",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 4673-0068"
+      },
+      {
+        "tipo": 2,
+        "icone": "fa fa-phone",
+        "valor": "(11) 94242-0894"
+      }
+    ],
+    "endereco": "Rua Serra do Japi",
+    "numero": "965 ",
+    "bairro": "Tatuapé",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Pet Care Animália",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(21) 2391-7705"
+      },
+      {
+        "tipo": 2,
+        "icone": "fa fa-phone",
+        "valor": "(21) 99176-6509"
+      }
+    ],
+    "endereco": "Estrada da Barra da Tijuca",
+    "numero": "1636",
+    "bairro": "Espaço Itanhangá",
+    "cidade": "Rio de Janeiro",
+    "estado": "RJ"
+  },
+  {
+    "tipo": 2,
+    "nome": "Vet Quality Clínica Veterinária 24h",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 5097-9642"
+      }
+    ],
+    "endereco": "Rua Vieira de Morais",
+    "numero": "1862",
+    "bairro": "Campo Belo",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Central de Atendimento ao Pet",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 5555-3517"
+      }
+    ],
+    "endereco": "Av. Conselheiro Carrão",
+    "numero": "2694",
+    "bairro": "Vila Carrão",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Central de Atendimento ao Pet",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 5555-3517"
+      }
+    ],
+    "endereco": "Av. Sapopemba",
+    "numero": "5698",
+    "bairro": "Vila Guarani",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Central de Atendimento ao Pet",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 5555-3517"
+      }
+    ],
+    "endereco": "Av. Guapira",
+    "numero": " 669",
+    "bairro": "Tucuruvi",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Central de Atendimento ao Pet - Centro de Diagnósticos",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 5555-3517"
+      }
+    ],
+    "endereco": "Av. Conselheiro Carrão",
+    "numero": "2654",
+    "bairro": "Vila Carrão",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 3,
+    "nome": "Central de Atendimento ao Pet - Clínica Móvel",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 5555-3517"
+      }
+    ],
+    "endereco": "null",
+    "numero": "null",
+    "bairro": "null",
+    "cidade": "null",
+    "estado": "null"
+  },
+  {
+    "tipo": 2,
+    "nome": "Vetnasa Brooklin - 24h",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 3729-3846"
+      },
+      {
+        "tipo": 2,
+        "icone": "fa fa-phone",
+        "valor": "(11) 3729-3846"
+      }
+    ],
+    "endereco": "Av. dos Bandeirantes",
+    "numero": "2060",
+    "bairro": "Brooklin",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Vetnasa Barueri - 24h",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 4382-4668"
+      }
+    ],
+    "endereco": "R. Santo Antônio",
+    "numero": "235",
+    "bairro": "Vila São João",
+    "cidade": "Barueri",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Vetnasa Brigadeiro - 24h",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 2638-8834"
+      }
+    ],
+    "endereco": "Av. Brigadeiro Luís Antônio",
+    "numero": "3691",
+    "bairro": "Jd. Paulista",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Vetnasa Butantã - 24h",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 2638-0400"
+      }
+    ],
+    "endereco": "Av. Professor Francisco Morato",
+    "numero": "414",
+    "bairro": "Butantã",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Campo Limpo - 24h",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 3181-2740"
+      }
+    ],
+    "endereco": "Est. Campo Limpo",
+    "numero": "3514",
+    "bairro": "Vila Prel",
+    "cidade": "São Paulo",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Cotia - 24h",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 3181-2740"
+      }
+    ],
+    "endereco": "Av. Prof. José Barreto",
+    "numero": "1649",
+    "bairro": "Jd. Nova Coimbra",
+    "cidade": "Cotia",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Mauá - 24h",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 3068-0637"
+      },
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 9815-8400"
+      }
+    ],
+    "endereco": "Av. Barão de Mauá",
+    "numero": "3045",
+    "bairro": "Jd. Miranda D'Aviz",
+    "cidade": "Mauá",
+    "estado": "SP"
+  },
+  {
+    "tipo": 2,
+    "nome": "Osasco - 24h",
+    "contato": [
+      {
+        "tipo": 1,
+        "icone": "fa fa-phone",
+        "valor": "(11) 2640-2545"
+      }
+    ],
+    "endereco": "Av. Maria Campos",
+    "numero": "306",
+    "bairro": "Centro",
+    "cidade": "Osasco",
+    "estado": "SP"
+  }
+]
